@@ -1,4 +1,4 @@
-void main() {
+ void main() {
   // Declare and initialize variables of different data types
   int age = 25;
   double height = 5.9;
