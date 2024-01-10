@@ -1,5 +1,19 @@
 void main() {
-  List l1 = [1, 2, 3, 4, 5, 6];
-  print(l1);
-  
+  List name = [
+    "Darshan",
+    "Fenish",
+    "Aayush",
+    "Meet",
+    "Darshan",
+    "Akshar",
+    "Darshan"
+  ];
+  List uniquname = [];
+
+  for (String n in name) {
+    if (!uniquname.contains(n)) {
+      uniquname.add(n);
+    }
+  }
+  print(uniquname);
 }
